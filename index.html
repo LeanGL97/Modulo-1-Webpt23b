@@ -1,11 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
-<body>
-    <h1>Proyecto M1</h1>
+<body class="fondo">
+    <header >
+        <h1 class="tituloPrincipal">Leandro Gianelli</h1>
+
+        <h4 class="subtitulo">Pagina Web Personal</h4>
+
+    </header>
+<main>
+    <section>
+
+           
+
+        <article id="presentacion">
+            
+            <div>
+                <h2 class="tituloSeccion1">¿Quién soy yo?</h2>
+
+                <p class="descripcion">En principio les doy la bienvenida a mi pagina web. <br>Me llamo Leandro Gianelli. Tengo 27 años de edad y soy de la zona sur de la provincia de Buenos Aires, Argentina. <br>Nací un 13 de junio de 1997, en la localidad de Remedios de Escalada. Casi toda mi vida la pasé viviendo en Llavallol, junto a mis padres y mis dos hermanos.<br>Completé mis estudios primarios y secundarios en el colegio 'San Francisco de Asís', que se encuentra en Llavallol. Luego, dado mi amor y fanatismo por el futbol, realicé la carrera de Director Tecnico de futbol en la academia del famoso Cesar Luis Menotti. Logré recibirme y puedo decir que es una experiencia maravillosa. Ademas de eso, tengo una distribuidora familiar junto a mi Papá. <br>En busca de nuevos desafios, me adentré en el mundo de la programación, con el objetivo de aprender y sumar un nuevo y mejor ingreso. Si llegaste hasta acá, muchas gracias por leerme.</p>
+            </div>
+
+        </article>
+
+           
+
+        <article id="favoritos">
+                <h2 class="tituloSeccion2">Mi Top 3 de Referentes Populares:</h2>
+            <div class="topImagenes">
+            <div class="item">
+                <img src="assets/img/messi.jpg" alt="Lionel Messi">
+                <h5>Lionel Messi</h5>
+            </div>
+            <div class="item">
+                <img src="assets/img/eminem.jpg" alt="Eminem">
+                <h5>Eminem</h5>
+            </div>
+            <div class="item">
+                <img src="assets/img/ali.jpg" alt="Muhammad Ali">
+                <h5>Muhammad Ali</h5>
+            </div>
+            </div>
+        </article>
+
+        <article>
+            
+                <h4 class="actividades">Mis Actividades Favoritas</h4>
+
+         <div id="formulario">
+
+                <form action="#" method="POST"></form>
+            <div>
+                    <label for="nombreDeLaActividad"></label>
+                    <input type="text" id="nombreDeLaActividad" name="nombre" placeholder="Nombre de la Actividad"><br><br>
+            </div>
+
+            <div>
+                    <label for="descripcionDeLaActividad"></label>
+                    <input type="text" id="descripcionDeLaActividad" name="descripción" placeholder="Descripción de la Actividad"><br><br>
+            </div>
+
+            <div >
+                    <label for="imagenDeLaActividad"></label>
+                    <input type="url" id="imagenDeLaActividad" name="linkImagen" placeholder="Link de Imagen"><br><br>
+            </div>
+
+            <div class="finFormulario">
+                <button id="boton" type="submit">Agregar Actividad</button>
+            </div>
+            
+         </div>
+        </article>
+    </section>
+</main>
 </body>
 </html>

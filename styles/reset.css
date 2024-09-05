@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border: none;
+    outline: none;
+}

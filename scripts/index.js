@@ -10,16 +10,18 @@ class Activity {
 class Repository {
     constructor() {
         this.activities = [];
-        
+        this.id = 1;
     }
     
     getAllActivities() {
         return this.activities;
     } 
 
-    createActivity(id, title, description, imgUrl) {
-        const newActivity = new Activity(id, title, description, imgUrl);
+    createActivity(title, description, imgUrl) {
+        const activityId = this.id;
+        const newActivity = new Activity(activityId, title, description, imgUrl);
         this.activities.push(newActivity);
+        this.id++;
     }
 
     deleteActivity(id){

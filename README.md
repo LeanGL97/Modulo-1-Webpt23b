@@ -1,5 +1,10 @@
 Este proyecto es el comienzo de mi camino en mi formación como Full Stack Development. Es una pagina donde muestro mis primeros contactos con HTML, CSS y JavaScript.
 Podemos apreciar secciones donde muestro un titulo de bienvenida, mis lenguajes favoritos y un espacio donde podemos indicar mis actividades favoritas, con la posibilidad de borrarlas tambien.
+
+El proyecto se encuentra deployado y disponible para su visita.
+
+- https://modulo-1-henry.vercel.app/
+
 ## Vista previa
 
 <p align="center">
@@ -8,5 +13,5 @@ Podemos apreciar secciones donde muestro un titulo de bienvenida, mis lenguajes 
   <br/>
   <img src="/assets/pm2.jpg" alt="Captura 2" width="600"/>
   <br/>
-  <img src="../assets/pm3.jpg" alt="Captura 3" width="600"/>
+  <img src="/assets/pm3.jpg" alt="Captura 3" width="600"/>
 </p>
